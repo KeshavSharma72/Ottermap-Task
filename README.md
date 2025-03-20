@@ -14,7 +14,7 @@ This project is a React application that demonstrates how to use **OpenLayers** 
 ## Live Demo
 
 You can view the live version of the project hosted on Netlify here:  
-[React Map Application](https://om-task.netlify.app/openlayersmap)
+[React Map Application](https://om-task.netlify.app)
 
 ## Technologies Used
 
