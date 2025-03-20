@@ -1,12 +1,24 @@
-# React + Vite
+# React Map Application with OpenLayers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a React application that demonstrates how to use **OpenLayers** to integrate a map with polygon functionalities such as drawing, editing, and deleting polygons. The app also features a form for capturing user details like first name and mobile number, which are displayed on the map page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Form Page**: A page with a form to input the user's first name and mobile number, saving the data in the application state.
+- **State Management**: Uses React state to manage and pass form data between pages.
+- **OpenLayers Map**: Displays a map with interactive polygon functionalities (draw, edit, and delete).
+- **Responsive Design**: The layout is responsive, adjusting for different screen sizes with media queries.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+You can view the live version of the project hosted on Netlify here:  
+[React Map Application](https://om-task.netlify.app/openlayersmap)
+
+## Technologies Used
+
+- **React**: Frontend framework for building the user interface.
+- **React Router**: For routing between the form and map pages.
+- **OpenLayers**: A powerful mapping library used for creating the map with polygon features.
+- **Netlify**: For hosting the live demo of the project.
